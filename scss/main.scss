@@ -1,6 +1,31 @@
 @import 'reset';
 @import 'variables';
 
+//Mixins
+@mixin banner {
+    width: 100%;
+    position: relative;
+    color: #fff;
+    .banner-content {
+        position: absolute;
+        top: 50px;
+        width: 100%;
+    }
+    img {
+        width: 100%;
+    }
+    span {
+        font-size: $bannerHeading;
+        display: block;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    span.title {
+        font-weight: normal;
+        margin-bottom: 30px;
+    }
+}//end of mixin
+
 #main-nav {
     background: $deepBlue;
     ul {
@@ -27,4 +52,17 @@
 section h1 {
     font-size: $sectionHeading;
     color: $deepBlue;
+}
+.lead-banner {
+    @include banner;
+    text-align: right;
+}
+.lessons-banner {
+    @include banner;
+    li {
+        text-transform: uppercase;
+        font-size: 20px;
+        max-width: 500px;
+        margin: 60px 0;
+    }
 }
