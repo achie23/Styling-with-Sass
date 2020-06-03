@@ -44,6 +44,7 @@ section h1 {
     }
 }
 #services {
+    margin: 30px 0 60px 0;
     .wrapper {
         margin: 20px auto;
         display: flex;
@@ -57,6 +58,7 @@ section h1 {
         float:left;
         box-sizing: border-box;
         text-align: center;
+        width: (100% / 3);
     }
     img {
         width: 60%;
