@@ -22,3 +22,11 @@
         margin-bottom: 30px;
     }
 }//end of mixin
+
+@mixin clearFloat {
+    &::after {
+        content: '';
+        display: block;
+        clear: both;
+    }
+}
