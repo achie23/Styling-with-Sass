@@ -29,6 +29,18 @@ li {
           box-sizing: border-box;
 }
 
+footer {
+  background: #04455b;
+}
+
+footer h2 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+  padding-top: 20px;
+  text-align: center;
+}
+
 #main-nav {
   background: #032f3e;
 }

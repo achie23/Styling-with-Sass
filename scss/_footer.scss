@@ -1,0 +1,28 @@
+footer {
+    background: lighten($deepBlue, 6);
+    h2 {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+        margin-top: 2rem;
+        padding-top: 20px;
+        text-align: center;
+    }
+    // .contact {
+    //     padding-top: 20px;
+    //     overflow: hidden;
+    //     display: flex;
+    //     flex-direction: column;
+    //     align-items: center;
+    // }
+    // &.contact {
+    //     display: grid;
+    //     grid-template-columns: 1fr;
+    //     grid-gap: 2rem;
+    //     font-size: 1.5rem;
+    // }
+    // }
+//     .social-icons {
+//         position: initial;
+//         margin-top: 2rem;
+//     }
+}
