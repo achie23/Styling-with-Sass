@@ -76,4 +76,11 @@ section h1 {
     ul {
         @include clearFloat;
     }
+}//end of services
+
+#projects li {
+    @include grid(4, 2%);
+    img {
+        width: 100%;
+    }
 }
