@@ -57,9 +57,9 @@ li {
 }
 
 #main-nav a:hover {
-  background: #333;
+  background: #04455b;
   font-size: 20px;
-  border-bottom: 5px solid orangered;
+  border-bottom: 5px solid #fff;
 }
 
 section h1 {
@@ -170,7 +170,7 @@ section h1 {
 }
 
 #services a:hover {
-  color: orangered;
+  color: #3e1203;
   font-size: 17px;
 }
 
@@ -178,6 +178,11 @@ section h1 {
   content: '';
   display: block;
   clear: both;
+}
+
+#projects h1 {
+  text-align: center;
+  margin: 40px 0 30px 0;
 }
 
 #projects li {
@@ -193,5 +198,11 @@ section h1 {
 
 #projects li img {
   width: 100%;
+}
+
+#projects ul::after {
+  content: '';
+  display: block;
+  clear: both;
 }
 /*# sourceMappingURL=main.css.map */
